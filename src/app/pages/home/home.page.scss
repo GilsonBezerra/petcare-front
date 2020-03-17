@@ -1,0 +1,25 @@
+ion-content {
+    width: 18.75rem;
+    ion-col {
+        margin-left: 1.2rem;
+    }
+    ion-card {
+        width: 95%;
+        height: 20rem;
+        text-align: center;
+        ion-input {
+            background-color: whitesmoke;
+            width: 95%;
+            height: 2.8rem;
+            margin: 1rem auto;
+            border-radius: 1.5rem;
+        }
+        ion-button {
+            width: 95%;
+            --border-radius: 1.5rem;
+        }
+        .card__login {
+            margin-top: 5rem;
+        }
+    }
+}
